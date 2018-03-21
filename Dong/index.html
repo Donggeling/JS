@@ -14,27 +14,48 @@
             height: 100%;
         }
         @keyframes kf1{
-            from{opacity:0}
-            to{opacity:100}
+            0%{opacity:0}
+            25%{opacity:100}
+            50%{opacity:0}
+            100%{opacity:50}
         }
         @keyframes kf2{
-            from{opacity:0}
-            to{opacity:100}
+            0%{opacity:50}
+            25%{opacity:0}
+            50%{opacity:100}
+            100%{opacity:0}
         }
         @keyframes kf3{
-            from{opacity:0}
-            to{opacity:100}
+            0%{opacity:50}
+            50%{opacity:0}
+            75%{opacity:100}
+            100%{opacity:100}
         }
         @keyframes kf4{
-            from{opacity:0}
-            to{opacity:100}
+            0%{opacity:50}
+            25%{opacity:0}
+            50%{opacity:50}
+            75%{opacity:100}
+            100%{opacity:0}
         }
         p{
             font-size:100px;
             position:absolute;
             width:100%;
             text-align:center;
-            animation:kf1 2s infinite;
+            
+        }
+        #id1{
+            animation:kf1 5s infinite;
+        }
+        #id2{
+            animation:kf2 4s infinite;
+        }
+        #id3{
+            animation:kf3 5s infinite;
+        }
+        #id4{
+            animation:kf4 6s infinite;
         }
         </style>
 </head>
